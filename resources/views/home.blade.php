@@ -4,9 +4,18 @@
 
 @section('content')
 <div class="container">
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <span class="home-text">Home</span>
+    </div>
+    
     <!-- Header -->
     <div class="header">
-        <span class="header-text">Home</span>
+        <div class="menu-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
     </div>
     
     <!-- Profile Section -->
@@ -31,11 +40,24 @@
     
     <!-- Social Icons -->
     <div class="social-icons">
-        <x-social-icon href="#" icon="📷" platform="Instagram" />
-        <x-social-icon href="#" icon="📘" platform="Facebook" />
-        <x-social-icon href="#" icon="💬" platform="WhatsApp" />
-        <x-social-icon href="#" icon="🐦" platform="Twitter" />
-        <x-social-icon href="#" icon="📺" platform="YouTube" />
+        <x-social-icon href="#" icon="instagram" platform="Instagram" />
+        <x-social-icon href="#" icon="facebook" platform="Facebook" />
+        <x-social-icon href="#" icon="whatsapp" platform="WhatsApp" />
+        <x-social-icon href="#" icon="twitter" platform="X" />
+        <x-social-icon href="#" icon="youtube" platform="YouTube" />
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-links">
+            <a href="#" class="footer-link">Sobre</a>
+            <a href="#" class="footer-link">Privacidade</a>
+            <a href="#" class="footer-link">Termos</a>
+            <a href="#" class="footer-link">Contato</a>
+        </div>
+        <div class="footer-text">
+            © 2025 LinkTree. Todos os direitos reservados.
+        </div>
     </div>
 </div>
 @endsection
